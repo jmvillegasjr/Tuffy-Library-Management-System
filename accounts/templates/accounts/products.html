@@ -1,0 +1,80 @@
+{%  extends 'accounts/main.html' %}
+
+{% block content %}
+<br>
+<div class="col-md-12">
+    <h5 style="text-align:center">BOOK DATABASE</h5>
+    <hr>
+    <div class="card card-body">
+        <a class="btn btn-primary" href="{% url 'admin:accounts_product_add' %}">ADD BOOK</a>
+        <br>
+        <div class="row">
+            <div class="col">
+                <div class="card card-body">
+
+                    <form method="get">
+                        {{myFilter.form}}
+
+
+                        <button class="btn btn-primary" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+
+        </div>
+        <br>
+        <table class="table table-sm">
+            <tr>
+
+            <th></th>
+            <th style="text-align:center">Book Title</th>
+            <th style="text-align:center">Isbn</th>
+            <th style="text-align:center">Date Received</th>
+            <th style="text-align:center">Author</th>
+            <th style="text-align:center">Publisher</th>
+            <th style="text-align:center">Quantity</th>
+
+            </tr>
+
+            {% for product in products %}
+            <tr>
+                <td><a href="{% url 'product' %}"></a></td>
+                <td style="text-align:center">{{product.book_title}}</td>
+                <td style="text-align:center">{{product.isbn}}</td>
+                <td style="text-align:center">{{product.date_received}}</td>
+                <td style="text-align:center">{{product.author}}</td>
+                <td style="text-align:center">{{product.publisher}}</td>
+                <td style="text-align:center">{{product.quantity}}</td>
+            </tr>
+            {% endfor %}
+
+        </table>
+    </div>
+</div>
+
+     <br>
+
+    <body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md"></div>
+
+			<div class="col-md">
+				<div class="card card-body">
+					 <div class="text-center">
+					<h3>View or download</h3>
+					<a class="btn btn-info" href="{% url 'pdf_view_books' %}" target="_blank">View Invoice</a>
+					<a class="btn btn-info"  href="{% url 'pdf_download_books' %}">Download Invoice</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md"></div>
+		</div>
+	</div>
+
+
+</body>
+</html>
+
+{% endblock %}

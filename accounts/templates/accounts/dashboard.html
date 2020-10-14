@@ -1,0 +1,38 @@
+{%  extends 'accounts/main.html' %}
+
+{% block content %}
+
+{%  include 'accounts/status.html' %}
+
+<br>
+
+<div class="row">
+    <div class="col-md-12">
+        <hr>
+        <div class="card card-body">
+            <a class="btn btn-primary" href="{% url 'issue_order' %}">MANAGE ORDERS</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="row">
+    <div class="col-md-12">
+        <hr>
+        <div class="card card-body">
+            <a class="btn btn-primary" href="{% url 'customer' %}">MANAGE CUSTOMERS</a>
+        </div>
+    </div>
+</div>
+
+
+<div class="col-md-12">
+    <hr>
+    <div class="card card-body">
+        <a class="btn btn-primary" href="{% url 'product' %}">MANAGE BOOKS</a>
+    </div>
+</div>
+</div>
+
+
+{% endblock %}

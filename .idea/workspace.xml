@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="93bb20cc-b35f-4696-b787-bfd71b193bd4" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/TuffyLibrary.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/TuffyLibrary.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/filters.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/filters.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/customer.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/customer.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/dashboard.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/dashboard.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/order.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/order.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/templates/accounts/products.html" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/templates/accounts/products.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/accounts/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/accounts/views.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="MERGE" />
+  </component>
+  <component name="ProjectId" id="1aQeLf4c5gb0AP74CuFJWj8Ch5S" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/products/templates/accounts" />
+    </key>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="93bb20cc-b35f-4696-b787-bfd71b193bd4" name="Default Changelist" comment="" />
+      <created>1586672190072</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1586672190072</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="443" y="162" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1587284884300">
+      <screen x="0" y="23" width="2560" height="1360" />
+    </state>
+    <state x="443" y="161" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1353@0.23.2560.1353" timestamp="1586763300109" />
+    <state x="443" y="162" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.2560.1360@0.23.2560.1360" timestamp="1587284884300" />
+    <state x="1563" y="515" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1586843622366">
+      <screen x="0" y="23" width="2560" height="1369" />
+    </state>
+    <state x="1563" y="509" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1353@0.23.2560.1353" timestamp="1586680007409" />
+    <state x="1563" y="515" key="#com.intellij.fileTypes.FileTypeChooser/0.23.2560.1369@0.23.2560.1369" timestamp="1586843622366" />
+    <state x="1222" y="133" key="SettingsEditor" timestamp="1589141383998">
+      <screen x="0" y="23" width="2560" height="1360" />
+    </state>
+    <state x="1222" y="133" key="SettingsEditor/0.23.2560.1360@0.23.2560.1360" timestamp="1589141383998" />
+    <state x="917" y="535" key="com.intellij.ide.util.TipDialog" timestamp="1589141288221">
+      <screen x="0" y="23" width="2560" height="1360" />
+    </state>
+    <state x="917" y="542" key="com.intellij.ide.util.TipDialog/0.0.2560.1440@0.0.2560.1440" timestamp="1586801069295" />
+    <state x="917" y="532" key="com.intellij.ide.util.TipDialog/0.23.2560.1353@0.23.2560.1353" timestamp="1586769823726" />
+    <state x="917" y="535" key="com.intellij.ide.util.TipDialog/0.23.2560.1360@0.23.2560.1360" timestamp="1589141288221" />
+    <state x="917" y="538" key="com.intellij.ide.util.TipDialog/0.23.2560.1369@0.23.2560.1369" timestamp="1586841744875" />
+    <state x="1423" y="398" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1587861582807">
+      <screen x="0" y="23" width="2560" height="1360" />
+    </state>
+    <state x="1423" y="398" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.23.2560.1360@0.23.2560.1360" timestamp="1587861582807" />
+    <state x="504" y="627" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1588542480809">
+      <screen x="0" y="23" width="2560" height="1360" />
+    </state>
+    <state x="504" y="627" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.2560.1360@0.23.2560.1360" timestamp="1588542480809" />
+    <state x="575" y="355" width="912" height="929" key="dock-window-1" timestamp="1588568323880">
+      <screen x="0" y="23" width="2560" height="1360" />
+    </state>
+    <state x="594" y="289" width="863" height="952" key="dock-window-1/0.23.2560.1353@0.23.2560.1353" timestamp="1586762507957" />
+    <state x="575" y="355" width="912" height="929" key="dock-window-1/0.23.2560.1360@0.23.2560.1360" timestamp="1588568323880" />
+    <state x="332" y="260" width="987" height="935" key="dock-window-1/0.23.2560.1369@0.23.2560.1369" timestamp="1586842451946" />
+    <state x="156" y="23" width="863" height="952" key="dock-window-10" timestamp="1586735810641">
+      <screen x="0" y="23" width="2560" height="1353" />
+    </state>
+    <state x="156" y="23" width="863" height="952" key="dock-window-10/0.23.2560.1353@0.23.2560.1353" timestamp="1586735810641" />
+    <state x="0" y="362" width="1119" height="929" key="dock-window-2" timestamp="1587863702053">
+      <screen x="0" y="23" width="2560" height="1360" />
+    </state>
+    <state x="979" y="312" width="863" height="952" key="dock-window-2/0.23.2560.1353@0.23.2560.1353" timestamp="1586762617975" />
+    <state x="0" y="362" width="1119" height="929" key="dock-window-2/0.23.2560.1360@0.23.2560.1360" timestamp="1587863702053" />
+    <state x="343" y="89" width="987" height="935" key="dock-window-2/0.23.2560.1369@0.23.2560.1369" timestamp="1586842451947" />
+    <state x="327" y="125" width="992" height="929" key="dock-window-3" timestamp="1587284918242">
+      <screen x="0" y="23" width="2560" height="1360" />
+    </state>
+    <state x="415" y="117" width="863" height="952" key="dock-window-3/0.23.2560.1353@0.23.2560.1353" timestamp="1586763135238" />
+    <state x="327" y="125" width="992" height="929" key="dock-window-3/0.23.2560.1360@0.23.2560.1360" timestamp="1587284918242" />
+    <state x="425" y="23" width="987" height="935" key="dock-window-3/0.23.2560.1369@0.23.2560.1369" timestamp="1586842451947" />
+    <state x="1330" y="235" width="992" height="929" key="dock-window-4" timestamp="1587285957662">
+      <screen x="0" y="23" width="2560" height="1360" />
+    </state>
+    <state x="415" y="110" width="863" height="952" key="dock-window-4/0.23.2560.1353@0.23.2560.1353" timestamp="1586763422324" />
+    <state x="1330" y="235" width="992" height="929" key="dock-window-4/0.23.2560.1360@0.23.2560.1360" timestamp="1587285957662" />
+    <state x="276" y="248" width="987" height="935" key="dock-window-4/0.23.2560.1369@0.23.2560.1369" timestamp="1586844246643" />
+    <state x="1319" y="158" width="992" height="929" key="dock-window-5" timestamp="1587287822336">
+      <screen x="0" y="23" width="2560" height="1360" />
+    </state>
+    <state x="415" y="156" width="863" height="952" key="dock-window-5/0.23.2560.1353@0.23.2560.1353" timestamp="1586763507594" />
+    <state x="1319" y="158" width="992" height="929" key="dock-window-5/0.23.2560.1360@0.23.2560.1360" timestamp="1587287822336" />
+    <state x="382" y="165" width="992" height="929" key="dock-window-6" timestamp="1587861388046">
+      <screen x="0" y="23" width="2560" height="1360" />
+    </state>
+    <state x="1363" y="133" width="1018" height="952" key="dock-window-6/0.23.2560.1353@0.23.2560.1353" timestamp="1586768263937" />
+    <state x="382" y="165" width="992" height="929" key="dock-window-6/0.23.2560.1360@0.23.2560.1360" timestamp="1587861388046" />
+    <state x="680" y="77" width="736" height="952" key="dock-window-7" timestamp="1586768389576">
+      <screen x="0" y="23" width="2560" height="1353" />
+    </state>
+    <state x="680" y="77" width="736" height="952" key="dock-window-7/0.23.2560.1353@0.23.2560.1353" timestamp="1586768389576" />
+    <state x="257" y="142" width="1701" height="1154" maximized="true" key="dock-window-8" timestamp="1586768690360">
+      <screen x="0" y="23" width="2560" height="1353" />
+    </state>
+    <state x="257" y="142" width="1701" height="1154" maximized="true" key="dock-window-8/0.23.2560.1353@0.23.2560.1353" timestamp="1586768690360" />
+    <state x="403" y="86" width="901" height="1185" key="dock-window-9" timestamp="1586768807911">
+      <screen x="0" y="23" width="2560" height="1353" />
+    </state>
+    <state x="403" y="86" width="901" height="1185" key="dock-window-9/0.23.2560.1353@0.23.2560.1353" timestamp="1586768807911" />
+    <state x="407" y="407" width="667" height="486" key="find.popup" timestamp="1588490367040">
+      <screen x="0" y="23" width="2560" height="1360" />
+    </state>
+    <state x="407" y="407" width="667" height="486" key="find.popup/0.23.2560.1360@0.23.2560.1360" timestamp="1588490367040" />
+    <state x="1557" y="334" width="670" height="58" key="search.everywhere.popup" timestamp="1588567024487">
+      <screen x="0" y="23" width="2560" height="1360" />
+    </state>
+    <state x="1557" y="332" width="670" height="676" key="search.everywhere.popup/0.23.2560.1353@0.23.2560.1353" timestamp="1586731509565" />
+    <state x="1557" y="334" width="670" height="58" key="search.everywhere.popup/0.23.2560.1360@0.23.2560.1360" timestamp="1588567024487" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/accounts/urls.py</url>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/accounts/views.py</url>
+          <line>39</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

@@ -1,0 +1,42 @@
+{%  extends 'accounts/main.html' %}
+
+{% block content %}
+
+<br>
+{{myFilter.form}}
+
+<button class="btn btn-primary" type="submit">Search</button>
+<br>
+
+<div class="row">
+    <div class="col-md">
+        <div class="card card-body">
+            <table class="table table-sm">
+                <tr>
+                    <th>Book</th>
+                    <th>Isbn</th>
+                    <th>Date Received</th>
+                    <th>Author</th>
+                    <th>Publisher</th>
+                    <th>Quantity</th>
+
+                </tr>
+
+                {% for product in products %}
+                <tr>
+                    <td>{{product.book_title}}</td>
+                    <td>{{product.isbn}}</td
+                    <td>{{checkout.date_received}}</td>
+                    <td>{{checkout.author}}</td>
+                    <td>{{checkout.publisher}}</td>
+                    <td>{{checkout.quantity}}</td>
+
+                </tr>
+                {% endfor %}
+
+            </table>
+        </div>
+    </div>
+</div>
+
+{% endblock %}

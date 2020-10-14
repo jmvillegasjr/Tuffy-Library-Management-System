@@ -1,0 +1,88 @@
+{%  extends 'accounts/main.html' %}
+
+{% block content %}
+<br>
+<div class="row">
+    <div class="col-md-12">
+        <h5 style="text-align:center">ORDER DATABASE</h5>
+        <hr>
+        <div class="card card-body">
+            <a class="btn btn-primary" href="{% url 'admin:accounts_issueorder_add' %}">ISSUE ORDER</a>
+
+            <br>
+            <a class="btn btn-primary" href="{% url 'admin:accounts_returnorder_add' %}">RETURN ORDER</a>
+
+            <br>
+            <div class="row">
+                <div class="col">
+                    <div class="card card-body">
+
+                        <form method="get">
+                            {{myFilter.form}}
+
+
+                            <button class="btn btn-primary" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <table class="table table-sm">
+                <tr>
+                    <th></th>
+                    <h3 style="text-align:center">ISSUED ORDERS</h3>
+                    <th style="text-align:center">Customer</th>
+                    <th style="text-align:center">Product</th>
+                    <th style="text-align:center">Date Out</th>
+                    <th style="text-align:center">Status</th>
+                </tr>
+
+                {% for issueOrder in issueOrders %}
+                <tr>
+                    <td><a href="{% url 'issue_order' %}"></a></td>
+                    <td style="text-align:center">{{issueOrder.customer}}</td>
+                    <td style="text-align:center">{{issueOrder.product}}</td>
+                    <td style="text-align:center">{{issueOrder.date_out}}</td>
+                    <td style="text-align:center">{{issueOrder.status}}</td>
+                </tr>
+
+                {% endfor %}
+
+            </table>
+        </div>
+    </div>
+
+    <br>
+
+    <body>
+
+
+	<!--
+
+	Was not able to make this work :(
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md"></div>
+
+			<div class="col-md">
+				<div class="card card-body">
+					 <div class="text-center">
+					<h3>View or download</h3>
+					<a class="btn btn-info" href="{% url 'pdf_view_orders' %}" target="_blank">View Invoice</a>
+					<a class="btn btn-info"  href="{% url 'pdf_download_orders' %}">Download Invoice</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md"></div>
+		</div>
+	</div>
+    -->
+
+
+</body>
+</html>
+    {% endblock %}
+

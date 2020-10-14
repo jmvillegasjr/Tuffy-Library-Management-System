@@ -1,0 +1,50 @@
+{%  extends 'accounts/main.html' %}
+
+{% block content %}
+<br>
+<div class="row">
+    <div class="col-md-12">
+        <h5 style="text-align:center">RETURN ORDER DATABASE</h5>
+        <hr>
+        <div class="card card-body">
+            <a class="btn btn-primary" href="{% url 'admin:accounts_returnorder_add' %}">RETURN ORDER</a>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <div class="card card-body">
+
+                        <form method="get">
+                            {{myFilter.form}}
+
+
+                            <button class="btn btn-primary" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <table class="table table-sm">
+                <tr>
+                    <th></th>
+                    <th style="text-align:center">Customer</th>
+                    <th style="text-align:center">Product</th>
+                    <th style="text-align:center">Date In</th>
+                    <th style="text-align:center">Status</th>
+                </tr>
+
+                {% for issueOrder in issueOrders %}
+                <tr>
+                    <td><a href="{% url 'customer' %}"></a></td>
+                    <td style="text-align:center">{{returnOrder.customer}}</td>
+                    <td style="text-align:center">{{returnOrder.product}}</td>
+                    <td style="text-align:center">{{returnOrder.date_in}}</td>
+                    <td style="text-align:center">{{returnOrder.status}}</td>
+                </tr>
+                {% endfor %}
+
+            </table>
+        </div>
+    </div>
+
+    {% endblock %}

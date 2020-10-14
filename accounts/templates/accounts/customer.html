@@ -1,0 +1,84 @@
+{%  extends 'accounts/main.html' %}
+
+{% block content %}
+<br>
+<div class="row">
+    <div class="col-md-12">
+        <h5 style="text-align:center">CUSTOMER DATABASE</h5>
+        <hr>
+        <div class="card card-body">
+            <a class="btn btn-primary" href="{% url 'admin:accounts_customer_add' %}">CREATE CUSTOMER</a>
+            <br>
+            <div class="row">
+                <div class="col">
+                    <div class="card card-body">
+
+                        <form method="get">
+                            {{myFilter.form}}
+
+
+                            <button class="btn btn-primary" type="submit">Search</button>
+                        </form>
+                    </div>
+                </div>
+
+            </div>
+            <br>
+            <table class="table table-sm">
+                <tr>
+                    <th></th>
+                    <th style="text-align:center">Customer</th>
+                    <th style="text-align:center">Address</th>
+                    <th style="text-align:center">City</th>
+                    <th style="text-align:center">Zip</th>
+                    <th style="text-align:center">State</th>
+                    <th style="text-align:center">Email</th>
+                    <th style="text-align:center">Phone</th>
+                </tr>
+
+                {% for customer in customers %}
+                <tr>
+                    <td><a href="{% url 'customer' %}"></a></td>
+                    <td style="text-align:center">{{customer.name}}</td>
+                    <td style="text-align:center">{{customer.address}}</td>
+                    <td style="text-align:center">{{customer.city}}</td>
+                    <td style="text-align:center">{{customer.zip}}</td>
+                    <td style="text-align:center">{{customer.state}}</td>
+                    <td style="text-align:center">{{customer.email}}</td>
+                    <td style="text-align:center">{{customer.phone}}</td>
+                </tr>
+                {% endfor %}
+
+            </table>
+        </div>
+    </div>
+
+
+     <br>
+
+    <body>
+	<div class="container">
+		<div class="row">
+			<div class="col-md"></div>
+
+			<div class="col-md">
+				<div class="card card-body">
+					 <div class="text-center">
+					<h3>View or download</h3>
+					<a class="btn btn-info" href="{% url 'pdf_view' %}" target="_blank">View Invoice</a>
+					<a class="btn btn-info"  href="{% url 'pdf_download' %}">Download Invoice</a>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md"></div>
+		</div>
+	</div>
+
+
+</body>
+</html>
+
+
+
+    {% endblock %}

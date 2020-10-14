@@ -1,0 +1,42 @@
+</style>
+</head>
+
+<body>
+    <!-- Content for Static Frame 'header_frame' -->
+    <div id="header_content">
+    	<h3>Tuffy's Library</h3>
+    	<h3>Issued Orders</h3>
+    </div>
+
+    <!-- Content for Static Frame 'footer_frame' -->
+    <div id="footer_content">page <pdf:pagenumber>
+        of <pdf:pagecount>
+    </div>
+
+    <hr>
+
+    <table>
+    	<tr>
+            <th></th>
+            <th style="text-align:center">Customer</th>
+            <th style="text-align:center">Product</th>
+            <th style="text-align:center">Date Out</th>
+            <th style="text-align:center">Status</th>
+        </tr>
+
+         {% for issueOrder in issueOrders %}
+          <tr>
+               <td><a href="{% url 'issue_order' %}"></a></td>
+               <td style="text-align:center">{{issueOrder.customer}}</td>
+               <td style="text-align:center">{{issueOrder.product}}</td>
+               <td style="text-align:center">{{issueOrder.date_out}}</td>
+               <td style="text-align:center">{{issueOrder.status}}</td>
+           </tr>
+
+                {% endfor %}
+    </table>
+
+    <hr>
+
+</body>
+</html>

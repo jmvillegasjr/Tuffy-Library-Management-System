@@ -1,0 +1,47 @@
+</style>
+</head>
+
+<body>
+    <!-- Content for Static Frame 'header_frame' -->
+    <div id="header_content">
+    	<h3>Tuffy Library</h3>
+    	<h3>Customer Data</h3>
+    </div>
+
+    <!-- Content for Static Frame 'footer_frame' -->
+    <div id="footer_content">(c) - page <pdf:pagenumber>
+        of <pdf:pagecount>
+    </div>
+
+    <hr>
+
+    <table>
+    	<tr>
+
+                    <th></th>
+                    <th style="text-align:center">Customer</th>
+                    <th style="text-align:center">Address</th>
+                    <th style="text-align:center">City</th>
+                    <th style="text-align:center">Zip</th>
+                    <th style="text-align:center">State</th>
+                    <th style="text-align:center">Email</th>
+                    <th style="text-align:center">Phone</th>
+    	</tr>
+                {% for customer in customers %}
+                <tr>
+                    <td><a href="{% url 'customer' %}"></a></td>
+                    <td style="text-align:center">{{customer.name}}</td>
+                    <td style="text-align:center">{{customer.address}}</td>
+                    <td style="text-align:center">{{customer.city}}</td>
+                    <td style="text-align:center">{{customer.zip}}</td>
+                    <td style="text-align:center">{{customer.state}}</td>
+                    <td style="text-align:center">{{customer.email}}</td>
+                    <td style="text-align:center">{{customer.phone}}</td>
+                </tr>
+                {% endfor %}
+    </table>
+
+    <hr>
+
+</body>
+</html>

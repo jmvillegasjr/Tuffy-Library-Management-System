@@ -1,0 +1,47 @@
+</style>
+</head>
+
+<body>
+    <!-- Content for Static Frame 'header_frame' -->
+    <div id="header_content">
+    	<h3>Tuffy's Library</h3>
+    	<h3>Book Data</h3>
+    </div>
+
+    <!-- Content for Static Frame 'footer_frame' -->
+    <div id="footer_content">page <pdf:pagenumber>
+        of <pdf:pagecount>
+    </div>
+
+    <hr>
+
+    <table>
+    	<tr>
+
+<th></th>
+            <th style="text-align:center">Book Title</th>
+            <th style="text-align:center">Isbn</th>
+            <th style="text-align:center">Date Received</th>
+            <th style="text-align:center">Author</th>
+            <th style="text-align:center">Publisher</th>
+            <th style="text-align:center">Quantity</th>
+
+            </tr>
+
+            {% for product in products %}
+            <tr>
+                <td><a href="{% url 'product' %}"></a></td>
+                <td style="text-align:center">{{product.book_title}}</td>
+                <td style="text-align:center">{{product.isbn}}</td>
+                <td style="text-align:center">{{product.date_received}}</td>
+                <td style="text-align:center">{{product.author}}</td>
+                <td style="text-align:center">{{product.publisher}}</td>
+                <td style="text-align:center">{{product.quantity}}</td>
+            </tr>
+            {% endfor %}
+    </table>
+
+    <hr>
+
+</body>
+</html>
